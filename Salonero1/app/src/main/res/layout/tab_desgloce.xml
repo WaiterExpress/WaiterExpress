@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/cuentatitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de pedido"
+        android:textSize="20dp" />
+
+
+
+
+
+
+    <TextView
+        android:layout_gravity="left"
+        android:id="@+id/totalapagarcuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total a pagar:5000"
+        android:textSize="20dp" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:gravity="center"
+            android:id="@+id/cuentacancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Revisar"
+            android:layout_weight="0.51" />
+
+        <Button
+            android:gravity="center"
+            android:id="@+id/cuentapedir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pedir"
+            android:layout_weight="0.36" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
